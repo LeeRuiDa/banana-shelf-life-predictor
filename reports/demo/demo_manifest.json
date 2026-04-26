@@ -1,0 +1,125 @@
+{
+  "samples": [
+    {
+      "key": "green_unripe",
+      "title": "Green / Unripe",
+      "source_image": "C:\\Users\\LENOVO\\Desktop\\cv projects\\banana-shelf-life-predictor\\data\\raw\\downloads\\mendeley_banana_day0_day7_2026\\extracted\\banana_ripening_dataset_day0_to_day7\\banana_ripening_dataset_day0_to_day7\\Banana_ID_005\\Day_0.jpg",
+      "true_days_to_rotten": 7,
+      "predictions": {
+        "stage": {
+          "task": "classification",
+          "predicted_class_index": 0,
+          "predicted_stage": "unripe",
+          "confidence": 0.9600304961204529,
+          "probabilities": {
+            "unripe": 0.9600304961204529,
+            "ripe": 0.013456936925649643,
+            "overripe": 0.010560174472630024,
+            "semi_ripe": 0.015952473506331444
+          }
+        },
+        "days_left": {
+          "task": "regression",
+          "predicted_days_to_rotten": 6.782826900482178
+        }
+      },
+      "outputs": {
+        "original": "C:\\Users\\LENOVO\\Desktop\\cv projects\\banana-shelf-life-predictor\\reports\\demo\\green_unripe_original.jpg",
+        "classifier_heatmap": "C:\\Users\\LENOVO\\Desktop\\cv projects\\banana-shelf-life-predictor\\reports\\demo\\green_unripe_classifier_heatmap.jpg",
+        "regressor_heatmap": "C:\\Users\\LENOVO\\Desktop\\cv projects\\banana-shelf-life-predictor\\reports\\demo\\green_unripe_regressor_heatmap.jpg",
+        "panel": "C:\\Users\\LENOVO\\Desktop\\cv projects\\banana-shelf-life-predictor\\reports\\demo\\green_unripe_panel.png"
+      }
+    },
+    {
+      "key": "ripe",
+      "title": "Ripe",
+      "source_image": "C:\\Users\\LENOVO\\Desktop\\cv projects\\banana-shelf-life-predictor\\data\\raw\\downloads\\mendeley_banana_day0_day7_2026\\extracted\\banana_ripening_dataset_day0_to_day7\\banana_ripening_dataset_day0_to_day7\\Banana_ID_036\\Day_2.png",
+      "true_days_to_rotten": 5,
+      "predictions": {
+        "stage": {
+          "task": "classification",
+          "predicted_class_index": 1,
+          "predicted_stage": "ripe",
+          "confidence": 0.728679358959198,
+          "probabilities": {
+            "unripe": 0.2291717678308487,
+            "ripe": 0.728679358959198,
+            "overripe": 0.012466371059417725,
+            "semi_ripe": 0.02968253381550312
+          }
+        },
+        "days_left": {
+          "task": "regression",
+          "predicted_days_to_rotten": 4.570062637329102
+        }
+      },
+      "outputs": {
+        "original": "C:\\Users\\LENOVO\\Desktop\\cv projects\\banana-shelf-life-predictor\\reports\\demo\\ripe_original.jpg",
+        "classifier_heatmap": "C:\\Users\\LENOVO\\Desktop\\cv projects\\banana-shelf-life-predictor\\reports\\demo\\ripe_classifier_heatmap.jpg",
+        "regressor_heatmap": "C:\\Users\\LENOVO\\Desktop\\cv projects\\banana-shelf-life-predictor\\reports\\demo\\ripe_regressor_heatmap.jpg",
+        "panel": "C:\\Users\\LENOVO\\Desktop\\cv projects\\banana-shelf-life-predictor\\reports\\demo\\ripe_panel.png"
+      }
+    },
+    {
+      "key": "overripe",
+      "title": "Overripe",
+      "source_image": "C:\\Users\\LENOVO\\Desktop\\cv projects\\banana-shelf-life-predictor\\data\\raw\\downloads\\mendeley_banana_day0_day7_2026\\extracted\\banana_ripening_dataset_day0_to_day7\\banana_ripening_dataset_day0_to_day7\\Banana_ID_005\\Day_5.jpg",
+      "true_days_to_rotten": 2,
+      "predictions": {
+        "stage": {
+          "task": "classification",
+          "predicted_class_index": 2,
+          "predicted_stage": "overripe",
+          "confidence": 0.8287553787231445,
+          "probabilities": {
+            "unripe": 0.12522980570793152,
+            "ripe": 0.00864944513887167,
+            "overripe": 0.8287553787231445,
+            "semi_ripe": 0.03736534342169762
+          }
+        },
+        "days_left": {
+          "task": "regression",
+          "predicted_days_to_rotten": 1.9152413606643677
+        }
+      },
+      "outputs": {
+        "original": "C:\\Users\\LENOVO\\Desktop\\cv projects\\banana-shelf-life-predictor\\reports\\demo\\overripe_original.jpg",
+        "classifier_heatmap": "C:\\Users\\LENOVO\\Desktop\\cv projects\\banana-shelf-life-predictor\\reports\\demo\\overripe_classifier_heatmap.jpg",
+        "regressor_heatmap": "C:\\Users\\LENOVO\\Desktop\\cv projects\\banana-shelf-life-predictor\\reports\\demo\\overripe_regressor_heatmap.jpg",
+        "panel": "C:\\Users\\LENOVO\\Desktop\\cv projects\\banana-shelf-life-predictor\\reports\\demo\\overripe_panel.png"
+      }
+    },
+    {
+      "key": "near_rotten",
+      "title": "Near Rotten",
+      "source_image": "C:\\Users\\LENOVO\\Desktop\\cv projects\\banana-shelf-life-predictor\\data\\raw\\downloads\\mendeley_banana_day0_day7_2026\\extracted\\banana_ripening_dataset_day0_to_day7\\banana_ripening_dataset_day0_to_day7\\Banana_ID_005\\Day_7.jpg",
+      "true_days_to_rotten": 0,
+      "predictions": {
+        "stage": {
+          "task": "classification",
+          "predicted_class_index": 2,
+          "predicted_stage": "overripe",
+          "confidence": 0.9642481803894043,
+          "probabilities": {
+            "unripe": 0.009997786022722721,
+            "ripe": 0.004957189783453941,
+            "overripe": 0.9642481803894043,
+            "semi_ripe": 0.020796919241547585
+          }
+        },
+        "days_left": {
+          "task": "regression",
+          "predicted_days_to_rotten": 0.3614724278450012
+        }
+      },
+      "outputs": {
+        "original": "C:\\Users\\LENOVO\\Desktop\\cv projects\\banana-shelf-life-predictor\\reports\\demo\\near_rotten_original.jpg",
+        "classifier_heatmap": "C:\\Users\\LENOVO\\Desktop\\cv projects\\banana-shelf-life-predictor\\reports\\demo\\near_rotten_classifier_heatmap.jpg",
+        "regressor_heatmap": "C:\\Users\\LENOVO\\Desktop\\cv projects\\banana-shelf-life-predictor\\reports\\demo\\near_rotten_regressor_heatmap.jpg",
+        "panel": "C:\\Users\\LENOVO\\Desktop\\cv projects\\banana-shelf-life-predictor\\reports\\demo\\near_rotten_panel.png"
+      }
+    }
+  ],
+  "grid": "C:\\Users\\LENOVO\\Desktop\\cv projects\\banana-shelf-life-predictor\\reports\\figures\\demo_explainability_grid.png"
+}

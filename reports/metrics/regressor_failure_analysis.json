@@ -1,0 +1,109 @@
+{
+  "overall": {
+    "count": 80,
+    "mae": 1.5718978811753914,
+    "rmse": 1.9590386674012625,
+    "within_1_day_accuracy": 0.35,
+    "within_2_day_accuracy": 0.6875,
+    "max_abs_error": 4.421907901763916,
+    "mean_residual": -1.132691227342002
+  },
+  "worst_banana_by_mae": {
+    "banana_id": "Banana_ID_064",
+    "count": 8,
+    "mae": 2.2491244301199913,
+    "rmse": 2.4939353399203936,
+    "within_1_day_rate": 0.125,
+    "within_2_day_rate": 0.375,
+    "mean_residual": -1.9124452695250511,
+    "min_true_days": 0.0,
+    "max_true_days": 7.0
+  },
+  "by_true_day": [
+    {
+      "true_days_to_rotten": 0.0,
+      "count": 10,
+      "mae": 1.1152071988210082,
+      "rmse": 1.2100725638767795,
+      "within_1_day_rate": 0.2,
+      "within_2_day_rate": 1.0,
+      "mean_prediction": 1.1116299832239747,
+      "mean_residual": 1.1116299832239747
+    },
+    {
+      "true_days_to_rotten": 1.0,
+      "count": 10,
+      "mae": 0.2958222389221191,
+      "rmse": 0.33343181614687384,
+      "within_1_day_rate": 1.0,
+      "within_2_day_rate": 1.0,
+      "mean_prediction": 0.8511220216751099,
+      "mean_residual": -0.14887797832489008
+    },
+    {
+      "true_days_to_rotten": 2.0,
+      "count": 10,
+      "mae": 0.9785064339637757,
+      "rmse": 1.0604018661040386,
+      "within_1_day_rate": 0.2,
+      "within_2_day_rate": 1.0,
+      "mean_prediction": 1.0214935660362243,
+      "mean_residual": -0.9785064339637757
+    },
+    {
+      "true_days_to_rotten": 3.0,
+      "count": 10,
+      "mae": 1.7573563039302826,
+      "rmse": 1.9768633917124,
+      "within_1_day_rate": 0.3,
+      "within_2_day_rate": 0.7,
+      "mean_prediction": 1.2426436960697174,
+      "mean_residual": -1.7573563039302826
+    },
+    {
+      "true_days_to_rotten": 4.0,
+      "count": 10,
+      "mae": 1.4541424095630646,
+      "rmse": 1.8344136940197266,
+      "within_1_day_rate": 0.6,
+      "within_2_day_rate": 0.7,
+      "mean_prediction": 3.5080980956554413,
+      "mean_residual": -0.4919019043445587
+    },
+    {
+      "true_days_to_rotten": 5.0,
+      "count": 10,
+      "mae": 1.6844066858291626,
+      "rmse": 1.8891811664895963,
+      "within_1_day_rate": 0.1,
+      "within_2_day_rate": 0.6,
+      "mean_prediction": 3.3155933141708376,
+      "mean_residual": -1.6844066858291626
+    },
+    {
+      "true_days_to_rotten": 6.0,
+      "count": 10,
+      "mae": 2.223845362663269,
+      "rmse": 2.436699976672296,
+      "within_1_day_rate": 0.2,
+      "within_2_day_rate": 0.3,
+      "mean_prediction": 3.9537859201431274,
+      "mean_residual": -2.0462140798568726
+    },
+    {
+      "true_days_to_rotten": 7.0,
+      "count": 10,
+      "mae": 3.065896415710449,
+      "rmse": 3.3501016063769993,
+      "within_1_day_rate": 0.2,
+      "within_2_day_rate": 0.2,
+      "mean_prediction": 3.934103584289551,
+      "mean_residual": -3.065896415710449
+    }
+  ],
+  "outputs": {
+    "by_true_day": "reports\\metrics\\regressor_error_by_true_day.csv",
+    "by_banana": "reports\\metrics\\regressor_error_by_banana.csv",
+    "worst_predictions": "reports\\metrics\\regressor_worst_predictions.csv"
+  }
+}

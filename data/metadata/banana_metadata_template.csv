@@ -1,0 +1,3 @@
+image_path,banana_id,day_index,days_to_rotten,ripeness_stage,source_dataset,split_group,notes
+raw/example/banana_001_day0.jpg,banana_001,0,7,unripe,example_dataset,banana_001,replace with real metadata
+
