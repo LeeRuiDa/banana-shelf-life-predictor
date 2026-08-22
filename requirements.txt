@@ -1,5 +1,6 @@
 captum>=0.7,<1.0
 fastapi>=0.115,<1.0
+httpx>=0.28,<1.0
 matplotlib>=3.9,<4.0
 numpy>=1.26,<3.0
 pandas>=2.2,<3.0

@@ -52,6 +52,13 @@ async def predict(file: UploadFile = File(...)) -> dict:
         raise HTTPException(status_code=503, detail="No trained checkpoints are available.")
 
     image_bytes = await file.read()
-    image = Image.open(BytesIO(image_bytes)).convert("RGB")
+    if not image_bytes:
+        raise HTTPException(status_code=400, detail="Uploaded file is empty.")
+
+    try:
+        image = Image.open(BytesIO(image_bytes)).convert("RGB")
+    except Exception as exc:
+        raise HTTPException(status_code=400, detail=f"Uploaded file is not a valid image: {exc}") from exc
+
     predictions = predict_combined(image, classifier_bundle, regressor_bundle)
     return {"filename": file.filename, "predictions": predictions}
